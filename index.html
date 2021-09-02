@@ -5,9 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    ;<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="script.js"></script>
+    <div class="main_container">
+        <div class="city_info">
+            <div class="submit">
+                <h1 class="heading">Weather info</h1>
+                <input type="text" class="city" placeholder="Enter City">
+                <button class="getweather" onclick="weather()">Get Weather</button><br>
+            </div>
+            <div class="detail_container">
+                <h1 class="city_name detail"></h1>
+                <h1 class="temp detail"></h1>
+                <h1 class="wind detail"></h1>
+                <h1 class="desc detail"></h1>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

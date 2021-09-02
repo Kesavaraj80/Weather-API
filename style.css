@@ -1,0 +1,102 @@
+body{
+    background: #70f3ea;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container{
+    height: 45rem;
+    width: 50rem;
+    /* background: red; */
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+.submit{
+    /* background: chartreuse; */
+    height: 23rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.detail_container{
+    /* background: crimson; */
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.detail{
+    font-size: 2rem;
+    padding: 0;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.heading{
+    font-size: 5rem;
+}
+.city{
+    height: 5rem;
+    width: 40rem;
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    border:none;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+    font-size: 2rem;
+}
+.getweather{
+    margin-top: 20px;
+    height: 5rem;
+    width: 35rem;
+    border-radius: 20px;
+    background: transparent;
+    outline: none;
+    border:none;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+    font-size: 2rem;
+}
+
+@media screen and (max-width:475px) {
+    body{
+        background: #70f3ea;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_container{
+        height: 45rem;
+        width: 50rem;
+        /* background: red; */
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .submit{
+        /* background: chartreuse; */
+        height: 23rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .city{
+        height: 3rem;
+        width: 10rem;
+        font-size: 1rem;
+    }
+    .getweather{
+        height: 3rem;
+        width: 9rem;
+        font-size: 1rem;
+        color:white;
+    }
+    .detail_container{
+        font-size: 2rem;
+    }
+}
